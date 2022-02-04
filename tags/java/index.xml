@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on Coding in Swedish</title>
+    <link>https://thommyberglund.github.io/tags/java/</link>
+    <description>Recent content in Java on Coding in Swedish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sv-se</language>
+    <lastBuildDate>Fri, 04 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://thommyberglund.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IDE</title>
+      <link>https://thommyberglund.github.io/p/ide/</link>
+      <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://thommyberglund.github.io/p/ide/</guid>
+      <description>Vilken IDE? Då vi sällan tycker det är så kul att skriva vår kod i anteckningar så vill vi gärna ha en fungerande IDE. Då det kommer till Java så är det i praktiken två olika varianter som folk använder utanför de akademiska kretsarna. Dessa är Eclipse och IntelliJ.
+Eclipse Eclipse återfinns på Eclipse hemsida och är precis så kostnadsfri och öppen som man skulle kunna önska sig. Känner man för det så kan man alltid donera en slant till projektet.</description>
+    </item>
+    
+    <item>
+      <title>Introduktion</title>
+      <link>https://thommyberglund.github.io/p/introduktion/</link>
+      <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://thommyberglund.github.io/p/introduktion/</guid>
+      <description>Hur och varför? Att börja med något nytt, exempelvis att lära sig Java eller ett ramverk som Spring Boot, är sällan en enkel sak. Det blir inte heller lättare om man även behöver fokusera på att hela tiden översätta all text från engelska i sitt huvud. Från min egna begränsade sfär så har jag observerat att kunskaper inom engelska är relativt god hos min bekanta och mina kollegor. Detta hindrar dock inte att man kan underlätta ytterligare.</description>
+    </item>
+    
+  </channel>
+</rss>
