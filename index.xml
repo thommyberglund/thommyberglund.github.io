@@ -1,100 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Coding in Swedish</title>
-        <link>https://thommyberglund.github.io/</link>
-        <description>Recent content on Coding in Swedish</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>sv-se</language>
-        <lastBuildDate>Fri, 04 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://thommyberglund.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>IDE</title>
-        <link>https://thommyberglund.github.io/p/ide/</link>
-        <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://thommyberglund.github.io/p/ide/</guid>
-        <description>&lt;h2 id=&#34;vilken-ide&#34;&gt;Vilken IDE?&lt;/h2&gt;
-&lt;p&gt;Då vi sällan tycker det är så kul att skriva vår kod i anteckningar så vill vi gärna ha en fungerande IDE.
-Då det kommer till Java så är det i praktiken två olika varianter som folk använder utanför de akademiska kretsarna. Dessa är Eclipse och IntelliJ.&lt;/p&gt;
-&lt;h2 id=&#34;eclipse&#34;&gt;Eclipse&lt;/h2&gt;
-&lt;p&gt;Eclipse återfinns på &lt;a class=&#34;link&#34; href=&#34;https://www.eclipse.org/eclipseide/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Eclipse hemsida&lt;/a&gt; och är precis så kostnadsfri och öppen som man skulle kunna önska sig. Känner man för det så kan man alltid donera en slant till projektet.
-Eclipse extemt kompetent och det finns normalt sett plugins för allt du kan tänka dig, så som hantering av Git, ytterligare språk och stöd för ramverk så som Spring eller Quarkus.&lt;/p&gt;
-&lt;h2 id=&#34;intellij&#34;&gt;IntelliJ&lt;/h2&gt;
-&lt;p&gt;IntelliJ levereras av företaget Jetbrains och finns i två varianter, Ultimate och Community. Båda dessa hittas på &lt;a class=&#34;link&#34; href=&#34;https://www.jetbrains.com/idea/download/#section=windows&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Jetbrains hemsida&lt;/a&gt; tillsammans med en jämförande lista.&lt;/p&gt;
-&lt;p&gt;De två versionerna är i mångt och mycket densamma, men Ultimate ger extra lull-lull så som full hantering av Spring Framework och saker så som möjligthet att granska och manipulera databaser direkt i IntelliJ (bland annat).&lt;/p&gt;
-&lt;h2 id=&#34;vilken&#34;&gt;Vilken?&lt;/h2&gt;
-&lt;p&gt;Även om jag på väldigt många sätt vill använda Eclipse, så faller mitt val vanligen på IntelliJ. 
-Framför allt så avgör estetiken.&lt;/p&gt;
-&lt;p&gt;Då jag spenderar flera timmar varje dag på att titta på miljön så är det viktigt att det är vilsamt för ögonen. Här har Jetbrains verkligen lyckats med en IDE som är genomtänkt och samtidigt välfungerande.&lt;/p&gt;
-&lt;p&gt;Mitt råd till den som funderar är att testa båda och avgör själv. Den senaste utgåvan av Eclipse ska ha en kraftig förbättring på just utseendet.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Introduktion</title>
-        <link>https://thommyberglund.github.io/p/introduktion/</link>
-        <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://thommyberglund.github.io/p/introduktion/</guid>
-        <description>&lt;h2 id=&#34;hur-och-varför&#34;&gt;Hur och varför?&lt;/h2&gt;
-&lt;p&gt;Att börja med något nytt, exempelvis att lära sig Java eller ett ramverk som Spring Boot, är sällan en enkel sak.
-Det blir inte heller lättare om man även behöver fokusera på att hela tiden översätta all text från engelska i sitt huvud. Från min egna begränsade sfär så har jag observerat att kunskaper inom engelska är relativt god hos min bekanta och mina kollegor. 
-Detta hindrar dock inte att man kan underlätta ytterligare.&lt;/p&gt;
-&lt;h2 id=&#34;var-börjar-vi&#34;&gt;Var börjar vi?&lt;/h2&gt;
-&lt;p&gt;Det första steget vore rimligtvis att faktiskt hämta hem den senaste Java-versionen. Denna introduktion kommer fokusera på Windows,  så alla exempel kommer utgå från detta scenario.
-Linux och Mac OS får vi ta en annan gång.&lt;/p&gt;
-&lt;p&gt;För att utföra någon form av utveckling behövs en variant av Java som kallas för JDK, ett Java Development Kit.
-Min egen favorit är &lt;a class=&#34;link&#34; href=&#34;https://adoptium.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://adoptium.net/&lt;/a&gt; där en variant som kallas för Temurin går att ladda ner. I skrivandets stund är Temurin 17 den senaste, vilket också är en LTS (Long Term Support). LTS är generellt sett en bra version att vara på då den kommer få uppdateringar under en lång tid framåt.
-&lt;figure 
-	&gt;
-	&lt;a href=&#34;https://thommyberglund.github.io/images/temurin.png&#34; &gt;
-		&lt;img src=&#34;https://thommyberglund.github.io/images/temurin.png&#34;
-			
-			
-			
-			loading=&#34;lazy&#34;
-			alt=&#34;Nedladdning Temurin&#34;&gt;
-	&lt;/a&gt;
-	
-	&lt;figcaption&gt;Nedladdning Temurin&lt;/figcaption&gt;
-	
-&lt;/figure&gt;
-Ett klick på knappen &amp;ldquo;Latest release&amp;rdquo; kommer ladda ner sagda version.&lt;/p&gt;
-&lt;p&gt;En viktig notis är att sätta JAVA_HOME när tillfälle ges!
-&lt;figure 
-	&gt;
-	&lt;a href=&#34;https://thommyberglund.github.io/images/path.png&#34; &gt;
-		&lt;img src=&#34;https://thommyberglund.github.io/images/path.png&#34;
-			
-			
-			
-			loading=&#34;lazy&#34;
-			alt=&#34;JAVA_HOME&#34;&gt;
-	&lt;/a&gt;
-	
-	&lt;figcaption&gt;JAVA_HOME&lt;/figcaption&gt;
-	
-&lt;/figure&gt;&lt;/p&gt;
-&lt;h2 id=&#34;verifiera-det-hela&#34;&gt;Verifiera det hela&lt;/h2&gt;
-&lt;p&gt;Starta en kommandotolk via kommandot -cmd- och verifiera med -java &amp;ndash;version- att allt fungerar
-&lt;figure 
-	&gt;
-	&lt;a href=&#34;https://thommyberglund.github.io/images/java_version.png&#34; &gt;
-		&lt;img src=&#34;https://thommyberglund.github.io/images/java_version.png&#34;
-			
-			
-			
-			loading=&#34;lazy&#34;
-			alt=&#34;Verifiera&#34;&gt;
-	&lt;/a&gt;
-	
-	&lt;figcaption&gt;Verifiera&lt;/figcaption&gt;
-	
-&lt;/figure&gt;
-Eventuellt kan en omstart av Windows vara på sin plats om detta inte skulle fungera.&lt;/p&gt;
-</description>
-        </item>
-        
-    </channel>
+  <channel>
+    <title>Coding in Swedish - En blogg om Java och Spring</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Coding in Swedish - En blogg om Java och Spring</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 04 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IDE</title>
+      <link>http://localhost:1313/post/java/ide/</link>
+      <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/java/ide/</guid>
+      <description>Vilken IDE? Då vi sällan tycker det är så kul att skriva vår kod i anteckningar så vill vi gärna ha en fungerande IDE. Då det kommer till Java så är det i praktiken två olika varianter som folk använder utanför de akademiska kretsarna. Dessa är Eclipse och IntelliJ.
+Eclipse Eclipse återfinns på Eclipse hemsida och är precis så kostnadsfri och öppen som man skulle kunna önska sig. Känner man för det så kan man alltid donera en slant till projektet.</description>
+    </item>
+    
+    <item>
+      <title>Introduktion</title>
+      <link>http://localhost:1313/post/java/spring-boot/</link>
+      <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/java/spring-boot/</guid>
+      <description>Hur och varför? Att börja med något nytt, exempelvis att lära sig Java eller ett ramverk som Spring Boot, är sällan en enkel sak. Det blir inte heller lättare om man även behöver fokusera på att hela tiden översätta all text från engelska i sitt huvud. Från min egna begränsade sfär så har jag observerat att kunskaper inom engelska är relativt god hos min bekanta och mina kollegor. Detta hindrar dock inte att man kan underlätta ytterligare.</description>
+    </item>
+    
+  </channel>
 </rss>

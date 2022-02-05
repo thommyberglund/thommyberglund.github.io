@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Coding in Swedish</title>
-    <link>https://thommyberglund.github.io/tags/</link>
-    <description>Recent content in Tags on Coding in Swedish</description>
+    <title>Tags on Coding in Swedish - En blogg om Java och Spring</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Coding in Swedish - En blogg om Java och Spring</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>sv-se</language>
-    <lastBuildDate>Fri, 04 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://thommyberglund.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Fri, 04 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Java</title>
-      <link>https://thommyberglund.github.io/tags/java/</link>
+      <link>http://localhost:1313/tags/java/</link>
       <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://thommyberglund.github.io/tags/java/</guid>
+      <guid>http://localhost:1313/tags/java/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Spring Boot</title>
-      <link>https://thommyberglund.github.io/tags/spring-boot/</link>
+      <link>http://localhost:1313/tags/spring-boot/</link>
       <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://thommyberglund.github.io/tags/spring-boot/</guid>
+      <guid>http://localhost:1313/tags/spring-boot/</guid>
       <description></description>
     </item>
     
